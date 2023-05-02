@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  padding: 10px;
+  display: flex;
+  height: 70px;
+  background-image: linear-gradient(to right,#672280, #A626D3);
+  color: #fff;
+}
+.header-img{
+  height: 40px;
+  margin: 10px;
+}
+.header-text{
+  font-size: 20px;
+  color: #fff;
+}
+main{
+  padding: 30px;
+}
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+.form-input{
+  border-radius: 5px;
+  text-indent: 10px;
+  /* padding: 10px; */
+  border: 1px solid #A626D3;
+}
+.form-btn{
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  background-color: #672280;
+  border: 1px solid #672280;
+  color: #fff;
+}
