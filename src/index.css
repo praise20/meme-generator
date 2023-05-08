@@ -50,4 +50,74 @@ main{
 }
 .memes-img{
   width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+input {
+  margin-right: 10px;
+  margin-bottom: 15px;
+  height: 30px;
+  text-indent: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+}
+textarea {
+  margin-bottom: 15px;
+  height: 30px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+}
+input[type="checkbox"]
+{
+    vertical-align:middle;
+}
+label,input{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme-img {
+  margin-top: 10px;
+  width: 100%;
+  max-height: 700px;
+  border-radius: 3px;
+}
+
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
